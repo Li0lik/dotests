@@ -20,6 +20,5 @@ func main() {
 	for {
 		Run()
 		time.Sleep(5 * time.Second)
-		//runtime.GC()
 	}
 }
